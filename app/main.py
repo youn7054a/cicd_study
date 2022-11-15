@@ -12,3 +12,5 @@ async def health_check():
         "status": True, 
         "code": 200
     }
+    
+    
