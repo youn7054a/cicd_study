@@ -1,5 +1,5 @@
 {
-    "taskDefinitionArn": "arn:aws:ecs:ap-northeast-1:815495712479:task-definition/youn7054:1",
+    "taskDefinitionArn": "arn:aws:ecs:ap-northeast-1:815495712479:task-definition/youn7054:8",
     "containerDefinitions": [
         {
             "name": "youn7054",
@@ -33,7 +33,7 @@
     "family": "youn7054",
     "executionRoleArn": "arn:aws:iam::815495712479:role/ecsTaskExecutionRole",
     "networkMode": "awsvpc",
-    "revision": 1,
+    "revision": 8,
     "volumes": [],
     "status": "ACTIVE",
     "requiresAttributes": [
@@ -76,7 +76,7 @@
         "cpuArchitecture": "X86_64",
         "operatingSystemFamily": "LINUX"
     },
-    "registeredAt": "2023-01-31T06:44:51.628Z",
+    "registeredAt": "2023-01-31T14:12:46.745Z",
     "registeredBy": "arn:aws:iam::815495712479:root",
     "tags": [
         {
