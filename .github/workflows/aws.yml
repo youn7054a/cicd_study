@@ -31,13 +31,13 @@ on:
     branches: [ "main" ]
 
 env:
-  AWS_REGION: ap-northeast-2                   # set this to your preferred AWS region, e.g. us-west-1
-  ECR_REPOSITORY: study2                       # set this to your Amazon ECR repository name
-  ECS_SERVICE: ybj_service_test                # set this to your Amazon ECS service name
-  ECS_CLUSTER: ybj_test                        # set this to your Amazon ECS cluster name
+  AWS_REGION: ap-northeast-1                   # set this to your preferred AWS region, e.g. us-west-1
+  ECR_REPOSITORY: yonu7054                     # set this to your Amazon ECR repository name
+  ECS_SERVICE: youn7054                        # set this to your Amazon ECS service name
+  ECS_CLUSTER: youn7054                        # set this to your Amazon ECS cluster name
   ECS_TASK_DEFINITION: task-definition.json    # set this to the path to your Amazon ECS task definition aws에서 복붙
                                                # file, e.g. .aws/task-definition.json
-  CONTAINER_NAME: ybj_test2                    #aws 에서 정의한 이름
+  CONTAINER_NAME: youn7054                    #aws 에서 정의한 이름
  
 
 permissions:
