@@ -17,8 +17,6 @@
 
 # docker exec 5f2ced56ba46 python3 -c 'print(1)'
 
-# bind-mount
-
 
 <!-- docker run -d \
   -it \
